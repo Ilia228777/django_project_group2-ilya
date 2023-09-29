@@ -1,0 +1,125 @@
+#rest{
+    position: fixed;
+    top: 8.5%;
+    left: 43.5%;
+    font-size: 40px;
+    color: black;
+    text-shadow: none;
+}
+
+#r_stick1{
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    top: 50%;
+    left: 74%;
+}
+#r_stick2{
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    top: 30%;
+    left: 48%
+}
+#r_stick3{
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    top: 16%;
+    left: 22%
+}
+#r_stick4{
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    top: 53%;
+    left: 0.5%
+}
+
+#ilya_rp{
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: 43.5%;
+    left: 50.5%;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: none;
+
+    border: 1px;
+    padding: 20px;
+    width: 250px
+}
+#yarik_rp{
+    position: fixed;
+    top: 31%;
+    left: 25%;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: none;
+
+    border: 1px;
+    padding: 20px;
+    width: 230px
+}
+#diana_rp{
+    position: fixed;
+    top: 62%;
+    left: 77%;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: none;
+
+    border: 1px;
+    padding: 20px;
+    width: 210px
+}
+#vanya_rp{
+    position: fixed;
+    top: 66%;
+    left: 4%;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: none;
+
+    border: 1px;
+    padding: 20px;
+    width: 200px
+}
+
+#ilya_rh3{
+    position: fixed;
+    top: 32%;
+    left: 53.2%;
+    font-size: 24px;
+    text-shadow: 3px 3px 3px rgb(255, 255, 255);
+}
+
+#yarik_rh3{
+    position: fixed;
+    top: 18.3%;
+    left: 26.7%;
+    font-size: 24px;
+    text-shadow: 3px 3px 3px rgb(255, 255, 255);
+}
+#diana_rh3{
+    position: fixed;
+    top: 51.5%;
+    left: 79%;
+    font-size: 24px;
+    text-shadow: 3px 3px 3px rgb(255, 255, 255);
+}
+#vanya_rh3{
+    position: fixed;
+    top: 55.5%;
+    left: 5.5%;
+    font-size: 24px;
+    text-shadow: 3px 3px 3px rgb(255, 255, 255);
+}

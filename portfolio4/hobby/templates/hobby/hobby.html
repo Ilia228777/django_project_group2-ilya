@@ -1,0 +1,30 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block links %}
+    <link rel="stylesheet" href="{% static 'hobby/css/style.css' %}">
+{% endblock %}
+{% block content %}
+    <h1 id = 'our_hobby'>Наші хоббі</h1>
+    <div>
+        <img class = 'h_sticker' id = 'h_stick1' src="{% static 'hobby/img/stick.png' %}" alt="">
+        <img class = 'h_sticker' id = 'h_stick2' src="{% static 'hobby/img/stick.png' %}" alt="">
+        <img class = 'h_sticker' id = 'h_stick3' src="{% static 'hobby/img/stick.png' %}" alt="">
+        <img class = 'h_sticker' id = 'h_stick4' src="{% static 'hobby/img/stick.png' %}" alt="">
+    </div>
+    <div>
+        <h3 id = 'ilya_hh3'>Iлля</h3>
+        <p id = 'ilya_hp'>Моє хобі це вчиться.</p>
+    </div>
+    <div>
+        <h3 id = 'yarik_hh3'>Ярiк</h3>
+        <p id = 'yarik_hp'>Захоплююсь комп'ютерною тематикою, здебільшого складанням комп'ютерів, граю в настільний теніс, і обожнюю книги</p>
+    </div>
+    <div>
+        <h3 id = 'diana_hh3'>Дiана</h3>
+        <p id = 'diana_hp'>У вільний час полюбляю малювати або робити щось своїми руками. Також мені подобається займитися програмуванням та грати у комп'ютерні ігри. Із спортивних захоплень віддаю перевагу волейболу та бадмінтону.</p>
+    </div>
+    <div>
+        <h3 id = 'vanya_hh3'>Ваня</h3>
+        <p id = 'vanya_hp'>Захоплююсь програмуванням та люблю грати в комп'ютерні ігри.</p>
+    </div>
+{% endblock %}

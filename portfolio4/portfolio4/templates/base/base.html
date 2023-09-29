@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'portfolio4/css/body.css' %}">
+    <title>Document</title>
+    {% block links %}
+    {% endblock %}
+</head>
+<body>
+    <header>
+        <h1 class = 'group'>Group 2</h1>
+        <a class = 'link' href="{% url 'main' %}">Головна</a>
+        <a class = 'link' href="{% url 'education' %}">Освіта</a>
+        <a class = 'link' href="{% url 'achievements' %}">Досягнення</a>
+        <a class = 'link' href="{% url 'hobby' %}">Хоббі</a>
+        <a class = 'link' href="{% url 'rest' %}">Дозвілля</a>
+    </header>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer>
+        <a href=""></a>
+    </footer>
+</body>
+</html>

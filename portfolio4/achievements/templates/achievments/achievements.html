@@ -1,0 +1,30 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block links %}
+    <link rel="stylesheet" href="{% static 'achievements/css/style.css' %}">
+{% endblock %}
+{% block content %}
+    <h1 id = 'our_ach'>Наші досягнення в програмуванні</h1>
+    <div>
+        <img class = 'sticker2' id = 'ach_stick1' src="{% static 'education/img/stick.png' %}" alt="">
+        <img class = 'sticker2' id = 'ach_stick2' src="{% static 'education/img/stick.png' %}" alt="">
+        <img class = 'sticker2' id = 'ach_stick3' src="{% static 'education/img/stick.png' %}" alt="">
+        <img class = 'sticker2' id = 'ach_stick4' src="{% static 'education/img/stick.png' %}" alt="">
+    </div>
+    <div>
+        <h3 id = 'ilya_achh3'>Iлля</h3>
+        <p id = 'ilya_achp'>Маю два дипломи за два закінчені курси Python'a.</p>
+    </div>
+    <div>
+        <h3 id = 'yarik_achh3'>Ярiк</h3>
+        <p id = 'yarik_achp'>Приймав участь у 2 змаганнях з програмування ,здав дипломну практику за 2 курс</p>
+    </div>
+    <div>
+        <h3 id = 'diana_achh3'>Дiана</h3>
+        <p id = 'diana_achp'>Закінчивши два курси програмування навчилася: Структурувати данні, та пряцювати з файлами TXT, JSON. Розробляти віконні додатки. Писати власного телеграм бота за допомогою мови програмування python</p>
+    </div>
+    <div>
+        <h3 id = 'vanya_achh3'>Ваня</h3>
+        <p id = 'vanya_achp'>Закінчив 2 курси вивчення Python у школі World IT</p>
+    </div>
+{% endblock %} 

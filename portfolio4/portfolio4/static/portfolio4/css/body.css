@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+}
+
+@font-face {
+    font-family: 'Steak';
+    src: url('portfolio4/fonts/steak/STEAK.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    color: #ffffff;
+    font-family: 'Steak', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #f3fc47;
+}
+
+
+a{
+    color: #ffffff;
+    font-size: 23px;
+    font-family:monospace;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #f3fc47;
+}

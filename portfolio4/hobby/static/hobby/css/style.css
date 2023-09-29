@@ -1,0 +1,123 @@
+#our_hobby{
+    position: fixed;
+    top: 8.5%;
+    left: 43%;
+    font-size: 40px;
+    color: black;
+    text-shadow: none;
+}
+
+#h_stick1{
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    top: 10%;
+    left: 74%;
+}
+#h_stick2{
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    top: 47%;
+    left: 54%
+}
+#h_stick3{
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    top: 29%;
+    left: 27%
+}
+#h_stick4{
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+}
+
+#ilya_hp{
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: 28.5%;
+    left: 3.5%;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: none;
+
+    border: 1px;
+    padding: 20px;
+    width: 300px
+}
+#yarik_hp{
+    position: fixed;
+    top: 42.5%;
+    left: 30%;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: none;
+
+    border: 1px;
+    padding: 20px;
+    width: 230px
+}
+#diana_hp{
+    position: fixed;
+    top: 58.8%;
+    left: 57%;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: none;
+
+    border: 1px;
+    padding: 20px;
+    width: 230px
+}
+#vanya_hp{
+    position: fixed;
+    top: 23.5%;
+    left: 77%;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: none;
+
+    border: 1px;
+    padding: 20px;
+    width: 200px
+}
+
+#ilya_hh3{
+    position: fixed;
+    top: 14%;
+    left: 5.2%;
+    font-size: 24px;
+    text-shadow: 3px 3px 3px rgb(255, 255, 255);
+}
+
+#yarik_hh3{
+    position: fixed;
+    top: 30.6%;
+    left: 31.7%;
+    font-size: 24px;
+    text-shadow: 3px 3px 3px rgb(255, 255, 255);
+}
+#diana_hh3{
+    position: fixed;
+    top: 49%;
+    left: 59%;
+    font-size: 24px;
+    text-shadow: 3px 3px 3px rgb(255, 255, 255);
+}
+#vanya_hh3{
+    position: fixed;
+    top: 11.5%;
+    left: 78.5%;
+    font-size: 24px;
+    text-shadow: 3px 3px 3px rgb(255, 255, 255);
+}

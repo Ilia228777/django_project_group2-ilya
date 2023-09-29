@@ -1,0 +1,31 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block links %}
+    <link rel="stylesheet" href="{% static 'rest/css/style.css' %}">
+{% endblock %}
+{% block content %}
+    <h1 id = 'rest'>Дозвілля</h1>
+    <div>
+        <img class = 'sticker' id = 'r_stick1' src="{% static 'rest/img/stick.png' %}" alt="">
+        <img class = 'sticker' id = 'r_stick2' src="{% static 'rest/img/stick.png' %}" alt="">
+        <img class = 'sticker' id = 'r_stick3' src="{% static 'rest/img/stick.png' %}" alt="">
+        <img class = 'sticker' id = 'r_stick4' src="{% static 'rest/img/stick.png' %}" alt="">
+    </div>
+    <div>
+        <h3 id = 'yarik_rh3'>Ярослав</h3>
+        <p id = 'yarik_rp'>У довільний час я ....... я не маю довільного часу<p>
+    </div>
+    <div>
+        <h3 id = 'vanya_rh3'>Іван</h3>
+        <p id = 'vanya_rp'>Я відпочиваю гуляючи з друзями та граючи в комп'ютерні ігри.<p>
+    </div>
+    <div>
+        <h3 id = 'ilya_rh3'>Ілля</h3>
+        <p id = 'ilya_rp'>У довільний час я відпочиваю якщо можу.<p>
+    </div>
+    <div>
+        <h3 id = 'diana_rh3'>Діана</h3>
+        <p id = 'diana_rp'>Я відпочиваю на прогулянках з друзями чи рідними. Зазвичай ми влаштовуємо пікніки на відкритому повітрі або просто гуляємо містом чи парком<p>
+    </div>
+    
+{% endblock %}

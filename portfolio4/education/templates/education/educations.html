@@ -1,0 +1,30 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block links %}
+    <link rel="stylesheet" href="{% static 'education/css/edc.css' %}">
+{% endblock %}
+{% block content %}
+    <h1 id = 'edc' >Наша oсвіта</h1>
+    <div>
+        <img class = 'sticker' id = 'stick1' src="{% static 'education/img/stick.png' %}" alt="">
+        <img class = 'sticker' id = 'stick2' src="{% static 'education/img/stick.png' %}" alt="">
+        <img class = 'sticker' id = 'stick3' src="{% static 'education/img/stick.png' %}" alt="">
+        <img class = 'sticker' id = 'stick4' src="{% static 'education/img/stick.png' %}" alt="">
+    </div>
+    <div>
+        <h3 id = 'diana_edh3' >Діана</h3>
+        <p id = 'diana_edp'>Навчаюся у НТУ «Дніпровській політехніці» на першому курсі факультету комп'ютерних наук. Вивчаю програмування на протязі трьох років у World IT під керівництвом трьох викладачів: Дмитро Догонов, Дмитро Ларін, Миколай Скрипник.</p>
+    </div>
+    <div>
+        <h3 id = 'ilya_edh3'>Ілля</h3>
+        <p id = 'ilya_edp' >Вчуся у школі програмування World IT на третьому курсі Python'a.</p>
+    </div>
+    <div>
+        <h3 id = 'vanya_edh3'>Ваня</h3>
+        <p id = 'vanya_edp' >Навчаюся на 1 курсі коледжу та на 3 курсі програмування World IT </p>
+    </div>
+    <div>
+        <h3 id = 'yarik_edh3'>Ярослав</h3>
+        <p id = 'yarik_edp' >Навчаюся у 10 классi у двох школах , закінчив 2 курс програмування зараз навчаюся у школі World IT на третьому курсі Python'a </p>
+    </div>
+{% endblock %}

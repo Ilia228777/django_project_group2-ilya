@@ -1,0 +1,36 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block links %}
+    <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
+{% endblock %}
+{% block content %}
+    <div>
+        <img class = 'sticker' id = 'stick1' src="{% static 'main/img/stick.png' %}" alt="">
+        <img class = 'sticker' id = 'stick2' src="{% static 'main/img/stick.png' %}" alt="">
+        <img class = 'sticker' id = 'stick3' src="{% static 'main/img/stick.png' %}" alt="">
+        <img class = 'sticker' id = 'stick4' src="{% static 'main/img/stick.png' %}" alt="">
+    </div>
+    <div>
+        <h3 id = ilya_h3>Булкін Ілля</h3>
+        <img id = "ilya" class = 'main_image' src="{% static 'main/img/illya.jpg' %}" alt="ilya">
+        <p id = ilya_p>Я Ілля, мені 14 років, вчусь у 49 школi(гімназії) у 9 класi.</p>
+    </div>
+    <div id =yarik_h3>
+        <h3>Теліус Ярослав</h3>
+        <img id = "yarik" class = 'main_image' src="{% static 'main/img/yarik.jpg' %}" alt="yarik">
+        <p id = yarik_p>Я Ярослав, мені 15 прків , вчусь у 10 классі зараз тімлід</p>
+    </div>
+    <div id = diana_h3>
+        <h3>Панасенко Діана</h3>
+        <img id = "diana" class = 'main_image' src="{% static 'main/img/diana.jpg' %}" alt="diana">
+        <p id = diana_p>Я Діана, мені 17 років, вчусь на першому курсі університету</p>
+    </div>
+    <div id = vanya_h3>
+        <h3>Кратенко Іван</h3>
+        <img id = "vanya" class = 'main_image' src="{% static 'main/img/vanya.png' %}" alt="vanya">
+        <p id = vanya_p>Я Іван, мені 15 років, вчусь на 1 курсі коледжу<p>
+    </div>
+    <div>
+        <h1 id = 'our_group'>Наша команда</h1>
+    </div>
+{% endblock %}
